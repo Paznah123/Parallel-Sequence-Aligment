@@ -1,0 +1,4 @@
+seq 0	offset - 363	 score - 274.00 	MS(86, 87)
+seq 1	offset - 128	 score - 2385.50 	MS(178, 179)
+seq 2	offset - 858	 score - 343.30 	MS(1, 209)
+seq 3	offset - 975	 score - 752.00 	MS(210, 211)
