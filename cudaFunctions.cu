@@ -29,8 +29,8 @@ __device__ float calcMutantScore(char* seq1, char* seq2, float* ABCgrid, int len
 	
 	for (; j < len2; i++, j++)
 	{
-		if (j == n || j == k) 
-			j++;
+		if (j == n) j++;
+		if (j == k) j++;
 		int fc_idx = seq1[i] - 'A';
 		int sc_idx = seq2[j] - 'A';
 		score += ABCgrid[fc_idx*ABC_NUM + sc_idx];

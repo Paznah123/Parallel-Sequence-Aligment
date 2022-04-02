@@ -12,3 +12,6 @@ clean:
 run:
 	mpiexec -np 2 ./program
 
+runOn2:
+	mpiexec -np 2 -hostFile myHosts -map-by node ./program
+
